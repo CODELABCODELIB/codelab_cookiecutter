@@ -23,7 +23,7 @@ Here is a good way to organize every folder you work with
 Project Root
 |-- data : any data required to run the codes or data results from processed codes
 |   |-- raw : save your results datasets here
-|   |-- processed : save your results datasets here
+|   |-- processed : save your raw unprocessed datasets here
 |   |   |-- figures : Save your result plots here
 |-- docs : documentation of the pre processing codes
 |-- src :  All your codes go here
@@ -36,7 +36,7 @@ Project Root
 |-- README.md main documentation on how to get started 
 |-- requirements.txt  dependencies of your project
 ```
-An extra note on 'main_your_project.m' make sure not to call your functions in the command line because then its impossible to know exactly what you did if you need to debug in the future. 
+An extra note on 'main_your_project.m' make sure not to call your functions in the command line because then it's impossible to know exactly what you did if you need to debug in the future. 
 
 ### Startup via Linux
 
